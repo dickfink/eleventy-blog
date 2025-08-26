@@ -1,5 +1,5 @@
 ---
-title: Another Poest
+title: Another Post
 draft: false
 ---
 # Go bake!

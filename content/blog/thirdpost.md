@@ -2,6 +2,8 @@
 title: English Muffins
 date: 2018-08-24
 draft: false
+tags:
+  - Recipe
 ---
 **Makes 12 80g muffins**
 
@@ -22,7 +24,6 @@ draft: false
 *   butter - 33g
     
 
-  
 **Instructions**
 
 1.  mix dough 5 minutes

@@ -4,6 +4,7 @@ date: 2018-05-01
 draft: false
 tags:
   - Bread
+  - Recipe
 ---
 **Makes 1 loaf**
 

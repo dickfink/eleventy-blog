@@ -3,8 +3,6 @@ title: Pizza (Home Oven)
 date: 2023-01-23
 draft: true
 ---
-# **Pizza (Home Oven)**
-
 Via [https://maybepizza.com/calc/](https://maybepizza.com/calc/) and [Neven’s Recipe and Directions](https://mrgan.tumblr.com/post/615569556634763264/nevens-pizza-dough)  
   
 **Makes 4 balls at 390g each**

@@ -31,5 +31,3 @@ content:
     type: file
     path: _data/metadata.js
     format: code
-  - name: GitHub Pages action
-    uses: peaceiris/actions-gh-pages@v4.0.0

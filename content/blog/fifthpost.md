@@ -2,6 +2,8 @@
 title: Pizza (Home Oven)
 date: 2023-01-23
 draft: false
+tags:
+  - Recipe
 ---
 Via [https://maybepizza.com/calc/](https://maybepizza.com/calc/) and [Neven’s Recipe and Directions](https://mrgan.tumblr.com/post/615569556634763264/nevens-pizza-dough)
 

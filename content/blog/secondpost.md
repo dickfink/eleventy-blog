@@ -1,17 +1,58 @@
 ---
-title: This is my second post with a much longer title.
-description: This is a post on My Blog about leveraging agile frameworks.
+title: Courage Bagel
 date: 2018-07-04
+draft: false
 tags:
   - number 2
 ---
-Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+# **Courage Bagel**
 
-## Section Header
+**Makes 12 bagels @ 150g each**
 
-<a href="/blog/firstpost/">First post</a>
-<a href="/blog/thirdpost/">Third post</a>
+*   978g flour (13.5% protein)
+    
+    *   955g ABC + 22g wheat gluten
+        
+*   612g water
+    
+    *   592 in. 20g remaining
+        
+*   196g - 100% hydration starter
+    
+*   15g salt
+    
+*   5g non-diastatic malt power
+    
 
-Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.
+  
+**Makes 6 bagels @150g each**
 
-Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.
+*   489g flour (13.5% protein)
+    
+    *   477.5g ABC + 11g wheat gluten
+        
+*   306g water
+    
+    *   296 in. 10g remaining
+        
+*   98g - 100% hydration starter
+    
+*   7.5g salt
+    
+*   2.5g non-diastatic malt powder
+    
+
+  
+**Instructions**
+
+1.  autolyse 30 min
+    
+2.  two folds at 45-minute intervals
+    
+3.  retard overnight three hours after mixing
+    
+4.  divide into 150g balls and proof two hour
+    
+5.  boil: 2200g water, 3g lye, 10g diastatic malt powder., I found 60 seconds per side gave good results after experimenting with 30 and 120 seconds per side. 
+    
+6.  bake at 500 for 20 minutes, flipping halfway through

@@ -1,6 +1,9 @@
 ---
 title: Pizza (Neapolitan)
 draft: false
+tags:
+  - Recipe
+  - Pizza
 ---
 [adapted via https://leopardcrustpizza.com/sourdough-pizza-dough/](https://leopardcrustpizza.com/sourdough-pizza-dough/)
 

@@ -3,7 +3,7 @@ title: Courage Bagel
 date: 2018-07-04
 draft: false
 tags:
-  - number 2
+  - Recipe
 ---
 # **Courage Bagel**
 
@@ -12,11 +12,9 @@ tags:
 *   978g flour (13.5% protein)
     
     *   955g ABC + 22g wheat gluten
-        
 *   612g water
     
     *   592 in. 20g remaining
-        
 *   196g - 100% hydration starter
     
 *   15g salt
@@ -24,17 +22,14 @@ tags:
 *   5g non-diastatic malt power
     
 
-  
 **Makes 6 bagels @150g each**
 
 *   489g flour (13.5% protein)
     
     *   477.5g ABC + 11g wheat gluten
-        
 *   306g water
     
     *   296 in. 10g remaining
-        
 *   98g - 100% hydration starter
     
 *   7.5g salt
@@ -42,7 +37,6 @@ tags:
 *   2.5g non-diastatic malt powder
     
 
-  
 **Instructions**
 
 1.  autolyse 30 min

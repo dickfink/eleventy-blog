@@ -1,9 +1,15 @@
 ---
 layout: layouts/base.njk
+eleventyImport:
+  collections: ["recipies"]
 eleventyNavigation:
-  key: About Me
+  key: Recipies
   order: 3
 ---
-# About Me
+# Recipies
 
-I am a person that writes stuff.
+<ul>
+{%- for post in collections.post -%}
+  <li>{{ post.data.title }}</li>
+{%- endfor -%}
+</ul>

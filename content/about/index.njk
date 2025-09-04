@@ -4,9 +4,18 @@ eleventyNavigation:
   key: Recipies
   order: 1
 ---
-# Recipies
+<h1>All Recipes</h1>
 
-{% for post in collections.recipe %}
--[{{ post.data.title }}]({{ post.url }}) - {{ post.data.date | date: "%Y-%m-%d" }}
-{% endfor %}
-</ul>
+{% if collections.recipe.length > 0 %}
+  {% for post in collections.recipe %}
+    <article>
+      <h2><a href="{{ post.url }}">{{ post.data.title }}</a></h2>
+      <time>{{ post.data.date | date: "%B %d, %Y" }}</time>
+      {% if post.data.description %}
+        <p>{{ post.data.description }}</p>
+      {% endif %}
+    </article>
+  {% endfor %}
+{% else %}
+  <p>No recipes found.</p>
+{% endif %}

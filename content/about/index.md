@@ -1,7 +1,7 @@
 ---
 layout: layouts/base.njk
 eleventyNavigation:
-  key: Recipies
+  key: About
   order: 3
 ---
-<h1>About</h1>
+# About

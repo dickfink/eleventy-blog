@@ -2,7 +2,7 @@
 title: Sourdough Bake
 draft: false
 tags:
-  - sourdough
-  - bake
+  - Sourdough
+  - Bake
 ---
 This is a sourdough break bake

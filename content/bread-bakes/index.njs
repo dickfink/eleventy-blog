@@ -5,8 +5,8 @@ layout: layouts/base.njk
 
 {% set sourdoughBaking = collections.all | 
     filter(post => post.data.tags and 
-           post.data.tags.includes('sourdough') and 
-           post.data.tags.includes('bake')) %}
+           post.data.tags.includes('Sourdough') and 
+           post.data.tags.includes('Bake')) %}
 
 {% if sourdoughBaking.length > 0 %}
   {% for post in sourdoughBaking %}

@@ -6,7 +6,7 @@ eleventyNavigation:
 ---
 <h1>Sourdough Baking Recipes</h1>
 
-<!-- Debug: Show all posts and their tags -->
+<!-- Debug: Show all posts and their tags
 <h2>Debug: All Posts with Tags</h2>
 {% for post in collections.all %}
   {% if post.data.tags %}
@@ -16,7 +16,7 @@ eleventyNavigation:
 
 <hr>
 
-<!-- Original filter
+ Original filter
 {% set sourdoughBaking = collections.all | 
     filter(post => post.data.tags and 
            post.data.tags.includes('sourdough') and 

@@ -4,10 +4,25 @@ eleventyNavigation:
   key: Country Loaf Bakes
   order: 5
 ---
-<h1>Sourdough Baking Recipes</h1>
+<h1>Country Loaf Bakes</h1>
 
-{% for post in collections.all %}
-  {% if post.data.tags %}
-    <p><strong>{{ post.data.title or post.url }}</strong> - Tags: {{ post.data.tags | join(", ") }}</p>
-  {% endif %}
-{% endfor %}
+{% set sourdoughBaking = collections.all | 
+    filter(post => post.data.tags and 
+           post.data.tags.includes('Bread') and 
+           post.data.tags.includes('Bake')) %}
+
+<h2>Posts with 'sourdough' AND 'bake' tags:</h2>
+{% if sourdoughBaking.length > 0 %}
+  {% for post in sourdoughBaking %}
+    <article>
+      <h2><a href="{{ post.url }}">{{ post.data.title }}</a></h2>
+      <time>{{ post.data.date | date("%B %d, %Y") }}</time>
+      <p>Tags: {{ post.data.tags | join(", ") }}</p>
+      {% if post.data.description %}
+        <p>{{ post.data.description }}</p>
+      {% endif %}
+    </article>
+  {% endfor %}
+{% else %}
+  <p>No posts found with both 'Bread' and 'Bake' tags.</p>
+{% endif %}

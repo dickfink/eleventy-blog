@@ -1,5 +1,8 @@
 ---
 layout: layouts/base.njk
+eleventyNavigation:
+  key: Sourdough Baking
+  order: 5
 ---
 <h1>Sourdough Baking Recipes</h1>
 

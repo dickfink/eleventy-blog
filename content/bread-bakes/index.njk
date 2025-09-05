@@ -3,7 +3,11 @@ layout: layouts/base.njk
 eleventyNavigation:
   key: Country Loaf Bakes
   order: 5
-title: Country Loaf Bakes
-
 ---
 <h1>Sourdough Baking Recipes</h1>
+
+{% for post in collections.all %}
+  {% if post.data.tags %}
+    <p><strong>{{ post.data.title or post.url }}</strong> - Tags: {{ post.data.tags | join(", ") }}</p>
+  {% endif %}
+{% endfor %}

@@ -1,16 +1,28 @@
 ---
 layout: layouts/base.njk
 eleventyNavigation:
-  key: bread-bakes
+  key: bread bakes
   order: 5
 ---
 <h1>Sourdough Baking Recipes</h1>
 
+<!-- Debug: Show all posts and their tags -->
+<h2>Debug: All Posts with Tags</h2>
+{% for post in collections.all %}
+  {% if post.data.tags %}
+    <p><strong>{{ post.data.title or post.url }}</strong> - Tags: {{ post.data.tags | join(", ") }}</p>
+  {% endif %}
+{% endfor %}
+
+<hr>
+
+<!-- Original filter -->
 {% set sourdoughBaking = collections.all | 
     filter(post => post.data.tags and 
-           post.data.tags.includes('Sourdough') and 
-           post.data.tags.includes('Bake')) %}
+           post.data.tags.includes('sourdough') and 
+           post.data.tags.includes('bake')) %}
 
+<h2>Posts with 'sourdough' AND 'bake' tags:</h2>
 {% if sourdoughBaking.length > 0 %}
   {% for post in sourdoughBaking %}
     <article>
@@ -23,5 +35,5 @@ eleventyNavigation:
     </article>
   {% endfor %}
 {% else %}
-  <p>No sourdough baking recipes found.</p>
+  <p>No posts found with both 'sourdough' and 'bake' tags.</p>
 {% endif %}

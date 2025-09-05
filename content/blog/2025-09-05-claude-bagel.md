@@ -2,7 +2,7 @@
 title: Claude Bagel
 draft: false
 tags:
-  - recipie
+  - recipe
 ---
 # Dough
 

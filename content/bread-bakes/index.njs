@@ -1,7 +1,7 @@
 ---
 layout: layouts/base.njk
 eleventyNavigation:
-  key: Sourdough Baking
+  key: bread-bakes
   order: 5
 ---
 <h1>Sourdough Baking Recipes</h1>
